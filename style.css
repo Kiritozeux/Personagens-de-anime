@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Configuração geral dos cards */
+.card {
+  width: 300px;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 60%;
+  border-radius: 5px;
+}
+
+/* Card do Escanor */
+.escanor {
+  background: rgb(255, 153, 33);
+  box-shadow: 0 4px 12px rgba(255, 153, 33, 0.5);
+}
+
+/* Card do King */
+.king {
+  background: rgb(133, 255, 33);
+  box-shadow: 0 4px 12px rgba(133, 255, 33, 0.5);
+}
+
+/* Botões */
+.card button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.escanor button {
+  background: rgb(200, 100, 0);
+}
+
+.king button {
+  background: rgb(70, 160, 0);
+}
