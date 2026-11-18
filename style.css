@@ -1,17 +1,83 @@
+
+.carrossel {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;          /* esconde as imagens fora da janela */
+  border-radius: 12px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 100%;               /* cada imagem ocupa a janela inteira */
+  flex-shrink: 0;
+  height: 340px;
+  object-fit: cover;         /* evita deformar a imagem */
+}
+
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.seta:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.anterior { left: 10px; }
+.proximo  { right: 10px; }
+body {
+  padding: 25px;
+  background-color: white;
+  color: rgb(255, 215, 0);
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: rgb(212, 0, 255);
+}
+
+.card,
+body.dark-mode .card {
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* Container: cards lado a lado */
 .container {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 30px;
   align-items: flex-start;
-  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+  overflow-x: auto;
 }
 
 /* Configuração geral dos cards */
 .card {
-  width: 300px;
-  border-radius: 15px;
-  padding: 15px;
+  width: 150px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 10px;
   text-align: center;
+  font-size: 13px;
   transition: 0.3s;
 }
 
@@ -19,9 +85,34 @@
   transform: translateY(-5px);
 }
 
+.card h2 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
 .card img {
-  width: 60%;
+  width: 80%;
   border-radius: 5px;
+}
+
+/* Botões (geral) */
+.card button {
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Texto que aparece ao clicar em "Saiba mais" */
+.card p.info {
+  display: none;
+  margin-top: 8px;
+}
+
+.card p.info.ativo {
+  display: block;
 }
 
 /* Card do Escanor */
@@ -30,41 +121,88 @@
   box-shadow: 0 4px 12px rgba(255, 153, 33, 0.5);
 }
 
+.escanor button {
+  background: rgb(200, 100, 0);
+}
+
 /* Card do King */
 .king {
   background: rgb(133, 255, 33);
   box-shadow: 0 4px 12px rgba(133, 255, 33, 0.5);
 }
 
-/*card do Ban*/
+.king button {
+  background: rgb(70, 160, 0);
+}
+
+/* Card do Ban */
 .Ban {
   background: rgb(225, 11, 11);
   box-shadow: 0 4px 12px rgba(130, 0, 0, 0.625);
 }
 
-/*card do Meliodas*/
+.Ban button {
+  background: rgb(224, 0, 0);
+}
+
+/* Card do Meliodas */
 .Meliodas {
   background: rgb(194, 184, 6);
   box-shadow: 0 4px 12px rgba(172, 161, 0, 0.814);
 }
 
-/* Botões */
-.card button {
-  color: white;
+.Meliodas button {
+  background: rgb(150, 140, 0);
+}
+
+/* Card da Merlin */
+.Merlin {
+  background: rgb(160, 90, 220);
+  box-shadow: 0 4px 12px rgba(120, 50, 180, 0.6);
+}
+
+.Merlin button {
+  background: rgb(110, 40, 170);
+}
+
+/* Card da Diane */
+.Diane {
+  background: rgb(33, 170, 255);
+  box-shadow: 0 4px 12px rgba(0, 120, 200, 0.6);
+}
+
+.Diane button {
+  background: rgb(0, 110, 190);
+}
+
+/* Card do Gowther */
+.Gowther {
+  background: rgb(255, 130, 200);
+  box-shadow: 0 4px 12px rgba(200, 80, 150, 0.6);
+}
+
+.Gowther button {
+  background: rgb(200, 70, 140);
+}
+
+
+
+.darkmode-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;          /* canto superior direito */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;   /* deixa redondo */
   border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
+  background: #000000;
+  font-size: 24px;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  z-index: 1000;        /* fica por cima de tudo */
 }
 
-.escanor button {
-  background: rgb(200, 100, 0);
-}
-
-.king button {
-  background: rgb(70, 160, 0);
-}
-
-.Ban button {
-  background: rgb(224, 0, 0);
+.darkmode-btn:hover {
+  transform: scale(1.1);
 }
