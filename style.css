@@ -36,6 +36,18 @@
   box-shadow: 0 4px 12px rgba(133, 255, 33, 0.5);
 }
 
+/*card do Ban*/
+.Ban {
+  background: rgb(225, 11, 11);
+  box-shadow: 0 4px 12px rgba(130, 0, 0, 0.625);
+}
+
+/*card do Meliodas*/
+.Meliodas {
+  background: rgb(194, 184, 6);
+  box-shadow: 0 4px 12px rgba(172, 161, 0, 0.814);
+}
+
 /* Botões */
 .card button {
   color: white;
@@ -51,4 +63,8 @@
 
 .king button {
   background: rgb(70, 160, 0);
+}
+
+.Ban button {
+  background: rgb(224, 0, 0);
 }
