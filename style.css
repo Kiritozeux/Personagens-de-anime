@@ -312,16 +312,6 @@ body.dark-mode .card {
   background: rgb(90, 40, 140);
 }
 
-/* Card do Thomas Andre */
-.thomasandre {
-  background: rgb(60, 100, 180);
-  box-shadow: 0 4px 12px rgba(60, 100, 180, 0.5);
-}
-
-.thomasandre button {
-  background: rgb(30, 60, 130);
-}
-
 /* Card do Go Gun-Hee */
 .gogunhee {
   background: rgb(130, 130, 130);
