@@ -24,7 +24,6 @@ const descricoes = {
     "Cha Hae-In": "Caçadora Rank S e hábil espadachim, aliada e grande parceira do Jin-Woo.",
     "Igris": "Cavaleiro das sombras, extremamente leal e um dos soldados mais fortes do exército do Jin-Woo.",
     "Beru": "Antigo Rei das Formigas, transformado em soldado das sombras e um dos mais poderosos do Jin-Woo.",
-    "Thomas Andre": "Caçador americano Rank S conhecido como Goliath, um dos mais poderosos do mundo.",
     "Go Gun-Hee": "Presidente da Associação de Caçadores da Coreia, muito respeitado e protetor dos caçadores.",
     "Baek Yoon-Ho": "Caçador Rank S e líder da guilda Tigre Branco, luta com garras e é um dos mais fortes da Coreia.",
     "Sung Jin-Ah": "Irmã mais nova do Jin-Woo, grande motivo da sua determinação em proteger a família."
