@@ -1,4 +1,3 @@
-
 .carrossel {
   position: relative;
   width: 600px;
@@ -115,6 +114,8 @@ body.dark-mode .card {
   display: block;
 }
 
+/* ================= 7 PECADOS CAPITAIS ================= */
+
 /* Card do Escanor */
 .escanor {
   background: rgb(255, 153, 33);
@@ -183,6 +184,172 @@ body.dark-mode .card {
 
 .Gowther button {
   background: rgb(200, 70, 140);
+}
+
+
+/* ================= SWORD ART ONLINE ================= */
+
+/* Card do Kirito */
+.kirito {
+  background: rgb(50, 50, 60);
+  box-shadow: 0 4px 12px rgba(50, 50, 60, 0.6);
+}
+
+.kirito button {
+  background: rgb(20, 20, 30);
+}
+
+/* Card da Asuna */
+.asuna {
+  background: rgb(230, 90, 70);
+  box-shadow: 0 4px 12px rgba(230, 90, 70, 0.5);
+}
+
+.asuna button {
+  background: rgb(180, 50, 40);
+}
+
+/* Card da Yui */
+.yui {
+  background: rgb(0, 170, 160);
+  box-shadow: 0 4px 12px rgba(0, 170, 160, 0.5);
+}
+
+.yui button {
+  background: rgb(0, 120, 115);
+}
+
+/* Card do Klein */
+.klein {
+  background: rgb(190, 80, 40);
+  box-shadow: 0 4px 12px rgba(190, 80, 40, 0.5);
+}
+
+.klein button {
+  background: rgb(140, 50, 20);
+}
+
+/* Card do Agil */
+.agil {
+  background: rgb(130, 90, 50);
+  box-shadow: 0 4px 12px rgba(130, 90, 50, 0.6);
+}
+
+.agil button {
+  background: rgb(90, 60, 30);
+}
+
+/* Card da Lisbeth */
+.lisbeth {
+  background: rgb(255, 110, 150);
+  box-shadow: 0 4px 12px rgba(255, 110, 150, 0.5);
+}
+
+.lisbeth button {
+  background: rgb(200, 60, 100);
+}
+
+/* Card da Sinon */
+.sinon {
+  background: rgb(40, 140, 100);
+  box-shadow: 0 4px 12px rgba(40, 140, 100, 0.5);
+}
+
+.sinon button {
+  background: rgb(20, 95, 65);
+}
+
+/* Card da Leafa */
+.leafa {
+  background: rgb(100, 190, 140);
+  box-shadow: 0 4px 12px rgba(100, 190, 140, 0.5);
+}
+
+.leafa button {
+  background: rgb(50, 140, 90);
+}
+
+
+/* ================= SOLO LEVELING ================= */
+
+/* Card do Sung Jin-Woo */
+.jinwoo {
+  background: rgb(60, 30, 110);
+  box-shadow: 0 4px 12px rgba(100, 50, 200, 0.6);
+}
+
+.jinwoo button {
+  background: rgb(35, 15, 70);
+}
+
+/* Card da Cha Hae-In */
+.chahaein {
+  background: rgb(200, 80, 160);
+  box-shadow: 0 4px 12px rgba(200, 80, 160, 0.5);
+}
+
+.chahaein button {
+  background: rgb(150, 40, 115);
+}
+
+/* Card do Igris */
+.igris {
+  background: rgb(140, 20, 40);
+  box-shadow: 0 4px 12px rgba(140, 20, 40, 0.6);
+}
+
+.igris button {
+  background: rgb(90, 10, 25);
+}
+
+/* Card do Beru */
+.beru {
+  background: rgb(25, 25, 25);
+  box-shadow: 0 4px 12px rgba(120, 60, 180, 0.6);
+}
+
+.beru button {
+  background: rgb(90, 40, 140);
+}
+
+/* Card do Thomas Andre */
+.thomasandre {
+  background: rgb(60, 100, 180);
+  box-shadow: 0 4px 12px rgba(60, 100, 180, 0.5);
+}
+
+.thomasandre button {
+  background: rgb(30, 60, 130);
+}
+
+/* Card do Go Gun-Hee */
+.gogunhee {
+  background: rgb(130, 130, 130);
+  box-shadow: 0 4px 12px rgba(100, 100, 100, 0.6);
+}
+
+.gogunhee button {
+  background: rgb(80, 80, 80);
+}
+
+/* Card do Baek Yoon-Ho */
+.baekyoonho {
+  background: rgb(220, 170, 0);
+  box-shadow: 0 4px 12px rgba(200, 150, 0, 0.6);
+}
+
+.baekyoonho button {
+  background: rgb(160, 115, 0);
+}
+
+/* Card da Sung Jin-Ah */
+.jinah {
+  background: rgb(120, 180, 230);
+  box-shadow: 0 4px 12px rgba(120, 180, 230, 0.5);
+}
+
+.jinah button {
+  background: rgb(60, 120, 180);
 }
 
 
